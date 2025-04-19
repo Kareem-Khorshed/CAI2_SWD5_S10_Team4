@@ -1,0 +1,14 @@
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Services\bin\Debug\net8.0\E-Commerce.Services.deps.json
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Services\bin\Debug\net8.0\E-Commerce.Services.runtimeconfig.json
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Services\bin\Debug\net8.0\E-Commerce.Services.dll
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Services\bin\Debug\net8.0\E-Commerce.Services.pdb
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Services\obj\Debug\net8.0\E-Commerce.Services.csproj.AssemblyReference.cache
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Services\obj\Debug\net8.0\E-Commerce.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Services\obj\Debug\net8.0\E-Commerce.Services.AssemblyInfoInputs.cache
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Services\obj\Debug\net8.0\E-Commerce.Services.AssemblyInfo.cs
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Services\obj\Debug\net8.0\E-Commerce.Services.csproj.CoreCompileInputs.cache
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Services\obj\Debug\net8.0\E-Commerce.Services.dll
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Services\obj\Debug\net8.0\refint\E-Commerce.Services.dll
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Services\obj\Debug\net8.0\E-Commerce.Services.pdb
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Services\obj\Debug\net8.0\E-Commerce.Services.genruntimeconfig.cache
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Services\obj\Debug\net8.0\ref\E-Commerce.Services.dll
