@@ -2,11 +2,15 @@ D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Data\bi
 D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Data\bin\Debug\net8.0\E-Commerce.Data.runtimeconfig.json
 D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Data\bin\Debug\net8.0\E-Commerce.Data.dll
 D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Data\bin\Debug\net8.0\E-Commerce.Data.pdb
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Data\bin\Debug\net8.0\E-Commerce.Models.dll
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Data\bin\Debug\net8.0\E-Commerce.Models.pdb
 D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Data\obj\Debug\net8.0\E-Commerce.Data.csproj.AssemblyReference.cache
 D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Data\obj\Debug\net8.0\E-Commerce.Data.GeneratedMSBuildEditorConfig.editorconfig
 D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Data\obj\Debug\net8.0\E-Commerce.Data.AssemblyInfoInputs.cache
 D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Data\obj\Debug\net8.0\E-Commerce.Data.AssemblyInfo.cs
 D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Data\obj\Debug\net8.0\E-Commerce.Data.csproj.CoreCompileInputs.cache
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Data\obj\Debug\net8.0\E-Commerce.Data.sourcelink.json
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Data\obj\Debug\net8.0\E-Commer.B3A1AFF8.Up2Date
 D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Data\obj\Debug\net8.0\E-Commerce.Data.dll
 D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Data\obj\Debug\net8.0\refint\E-Commerce.Data.dll
 D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Data\obj\Debug\net8.0\E-Commerce.Data.pdb

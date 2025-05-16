@@ -1,0 +1,12 @@
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Models\bin\Debug\net8.0\E-Commerce.Models.deps.json
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Models\bin\Debug\net8.0\E-Commerce.Models.dll
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Models\bin\Debug\net8.0\E-Commerce.Models.pdb
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Models\obj\Debug\net8.0\E-Commerce.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Models\obj\Debug\net8.0\E-Commerce.Models.AssemblyInfoInputs.cache
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Models\obj\Debug\net8.0\E-Commerce.Models.AssemblyInfo.cs
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Models\obj\Debug\net8.0\E-Commerce.Models.csproj.CoreCompileInputs.cache
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Models\obj\Debug\net8.0\E-Commerce.Models.sourcelink.json
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Models\obj\Debug\net8.0\E-Commerce.Models.dll
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Models\obj\Debug\net8.0\refint\E-Commerce.Models.dll
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Models\obj\Debug\net8.0\E-Commerce.Models.pdb
+D:\0.0.0.0_DEPI\0.0_Project\4_The Project\E-Commerce Solution\E-Commerce.Models\obj\Debug\net8.0\ref\E-Commerce.Models.dll

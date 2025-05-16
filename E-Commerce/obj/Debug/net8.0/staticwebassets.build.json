@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "npVxnTf1nEOiPm9+rRF6s95ncB8Y3uoG1kJeB0k8oek=",
+  "Hash": "ZYDrCmPfCHR39JwaiWfN79i3qs//yha0Ol+vQef51CY=",
   "Source": "E-Commerce",
   "BasePath": "_content/E-Commerce",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\0.0.0.0_DEPI\\0.0_Project\\4_The Project\\E-Commerce Solution\\E-Commerce.Web\\E-Commerce.Web.csproj",
+      "Version": 2,
+      "Source": "E-Commerce.Web",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "E-Commerce\\wwwroot",

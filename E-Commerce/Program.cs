@@ -1,4 +1,5 @@
 using E_Commerce.Data;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace E_Commerce
@@ -12,8 +13,9 @@ namespace E_Commerce
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            builder.Services.AddDbContext<AppDbContext>(
-                options => options.UseSqlServer(builder.Configuration.GetConnectionString("con")));
+            builder.Services.AddDbContext<AppDbContext>
+                (options => options.UseSqlServer(builder.Configuration.GetConnectionString("con"))
+                );
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -23,6 +25,17 @@ namespace E_Commerce
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+           
+
+            builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+            .AddEntityFrameworkStores<AppDbContext>()
+            .AddDefaultTokenProviders();
+
+            builder.Services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = "/Account/Login";
+                options.AccessDeniedPath = "/Account/AccessDenied";
+            });
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
