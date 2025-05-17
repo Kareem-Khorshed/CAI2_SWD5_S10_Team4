@@ -1,4 +1,8 @@
-﻿using E_Commerce.Data;
+using E_Commerce.Data;
+using E_Commerce.Models.Settings;
+using E_Commerce.Models.ViewModels;
+using E_Commerce.Services.Implementations;
+using E_Commerce.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 // إعداد الاتصال بقاعدة البيانات
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("con")));
+
 
 // إضافة Identity
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
@@ -26,6 +31,18 @@ builder.Services.AddSwaggerGen();
 // إضافة MVC
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddScoped<ICartService, CartService>();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddSession();
+// pull Stripe config into a POCO
+builder.Services.Configure<StripeSettings>(
+  builder.Configuration.GetSection("Stripe")
+);
+// register your IStripeService implementation
+builder.Services.AddScoped<IStripeService, StripeService>();
+
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -36,7 +53,7 @@ if (app.Environment.IsDevelopment())
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "My MVC API V1");
     });
 }
-
+app.UseSession();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 

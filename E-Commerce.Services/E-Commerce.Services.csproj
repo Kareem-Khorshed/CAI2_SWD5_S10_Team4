@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+	  <FrameworkReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.4">
       <PrivateAssets>all</PrivateAssets>
@@ -18,11 +19,12 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Stripe.net" Version="48.1.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\E-Commerce.Data\E-Commerce.Data.csproj" />
-    <ProjectReference Include="..\E-Commerce.Models\E-Commerce.Models.csproj" />
+	 <ProjectReference Include="..\E-Commerce.Models\E-Commerce.Models.csproj" />
   </ItemGroup>
 
 </Project>

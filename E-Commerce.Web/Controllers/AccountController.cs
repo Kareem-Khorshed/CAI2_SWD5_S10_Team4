@@ -1,5 +1,5 @@
 ﻿using E_Commerce.Models;
-using E_Commerce.Models.Models;
+using E_Commerce.Models.ViewModels;     // أو أي اسم قديم مشابه
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;

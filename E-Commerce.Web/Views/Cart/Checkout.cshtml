@@ -1,0 +1,20 @@
+﻿@model IEnumerable<E_Commerce.Models.CartItem>
+@{
+    ViewData["Title"] = "Checkout";
+    var total = Model.Sum(i => i.SubTotal);
+}
+
+<h1>Checkout</h1>
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@item.ProductName × @item.Quantity = @item.SubTotal:C</li>
+    }
+</ul>
+
+<p><strong>Total: @total:C</strong></p>
+
+<form asp-controller="Payments" asp-action="CreateSession" method="post">
+    <button class="btn btn-primary">Pay with Stripe</button>
+</form>
